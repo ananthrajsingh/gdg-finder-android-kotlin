@@ -23,11 +23,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintDimensionRatio="4:3"/>
 
-        <!-- TODO (01) Add textSize and textColor attributes to the title and
-             subtitle TextViews. -->
         <TextView
                 android:id="@+id/title"
                 android:layout_width="0dp"
+                android:textSize="24sp"
+                android:textColor="#555555"
                 android:layout_height="wrap_content"
                 android:text="@string/about_google_developer_groups"
                 android:layout_marginTop="16dp"
@@ -48,6 +48,8 @@
         <TextView
                 android:id="@+id/subtitle"
                 android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="#555555"
                 android:layout_height="wrap_content"
                 android:text="@string/gdgs_are"
                 android:layout_marginTop="13dp"
